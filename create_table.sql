@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS demo.districts (recorded_date string, state string, district string, confirmed int, recovered int, deceased int, other int, tested int)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
